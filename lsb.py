@@ -1,3 +1,9 @@
+#Image file is LSB are flipped with ascii data and converted to pixels again 
+#This script will revert that operation and print the ascii 
+#Author solo2-0
+
+
+
 from PIL import Image
 import re
 def lsb(value):
