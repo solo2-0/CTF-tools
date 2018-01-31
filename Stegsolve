@@ -1,0 +1,29 @@
+Stegsolve is a very important tool every image forensic expert has this tool in their arsenal.
+Now let's see how to download this tool.
+
+wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
+chmod +x stegsolve.jar
+mkdir bin
+mv stegsolve.jar bin/
+
+OR
+
+Goto -> http://www.caesum.com
+This has the stegsolve jar file which you can click and download
+
+Now how to open it.
+This is a jar file so you should have java installed on your machine.
+Now open a terminal and go to the location where you have downloaded the file and type-> java -jar stegsolve.jar 
+This will open the jar file and you will have a GUI on your which you can use.
+
+............................................How to use and what this is used for.........................................................
+
+Now this stegsolve is a steg tool which will add or subtract layers and change color formats of the image.
+This also provides us the ability to change the offset of the image.
+These reveal the places where the image hides the data.
+
+Now if you want to take an image and analyze it using stegsolve open stegsolve go to Open and then take the image and start with
+changing the image color and then try random colormaps then try offset of the image. Or goto-> the Frames and check if the image 
+has multiple frames etc.
+Now you know how to use stegsolve.
+
